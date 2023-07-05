@@ -1,0 +1,1 @@
+import{_ as n,c as o,d as e,b as c,w as _,e as a,o as s}from"./entry.98454478.js";const r={};function d(x,f){const t=a;return s(),o("div",null,[e("Home text "),c(t,{to:"/one"},{default:_(()=>[e("One")]),_:1})])}const l=n(r,[["render",d]]);export{l as default};

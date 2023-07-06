@@ -27,5 +27,5 @@ const currentSlide = computed(() => {
 //     newVal in slideMapper ? slideMapper[newVal] : "Slide1";
 //   currentSlide = resolveComponent(currentSlideName);
 // });
-console.log(currentSlide);
+// console.log(currentSlide);
 </script>

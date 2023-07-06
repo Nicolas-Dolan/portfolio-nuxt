@@ -1,8 +1,7 @@
 <template>
   <SlideTemplate>
-    <div class="col-sm bg-danger"></div>
-    <div class="col-sm bg-warning">
-      <NuxtLink to="/">Home</NuxtLink> <NuxtLink to="/two">Two</NuxtLink>
+    <div class="col bg-info">
+      <NuxtLink to="/">Home</NuxtLink><NuxtLink to="/one">One</NuxtLink>
     </div>
   </SlideTemplate>
 </template>

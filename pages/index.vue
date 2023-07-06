@@ -1,5 +1,7 @@
 <template>
-  <div>Home text <NuxtLink to="/one">One</NuxtLink></div>
+  <SlideTemplate>
+    <div class="bg-primary">Home text <NuxtLink to="/one">One</NuxtLink></div>
+  </SlideTemplate>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <SlideTemplate>
+  <SlideTemplate key="two">
     <div class="col bg-info">
       <NuxtLink to="/">Home</NuxtLink><NuxtLink to="/one">One</NuxtLink>
     </div>

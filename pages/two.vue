@@ -1,9 +1,9 @@
 <template>
-  <SlideTemplate key="two">
+  <Slide key="two">
     <div class="col bg-info">
       <NuxtLink to="/">Home</NuxtLink><NuxtLink to="/one">One</NuxtLink>
     </div>
-  </SlideTemplate>
+  </Slide>
 </template>
 
 <script setup lang="ts">

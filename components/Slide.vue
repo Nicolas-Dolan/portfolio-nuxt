@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
-import { useNavigation } from "../../hooks/navigation";
+import { useNavigation } from "../hooks/navigation";
 
 const { prev, next } = useNavigation();
 const router = useRouter();

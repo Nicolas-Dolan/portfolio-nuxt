@@ -1,7 +1,7 @@
 <template>
-  <SlideTemplate>
+  <Slide key="index">
     <div class="bg-primary">Home text <NuxtLink to="/one">One</NuxtLink></div>
-  </SlideTemplate>
+  </Slide>
 </template>
 
 <script setup lang="ts">

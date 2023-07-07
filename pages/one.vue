@@ -1,5 +1,5 @@
 <template>
-  <SlideTemplate key="one">
+  <Slide key="one">
     <div class="col-sm bg-danger">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -41,7 +41,7 @@
     <div class="col-sm bg-warning">
       <NuxtLink to="/">Home</NuxtLink> <NuxtLink to="/two">Two</NuxtLink>
     </div>
-  </SlideTemplate>
+  </Slide>
 </template>
 
 <script setup lang="ts">

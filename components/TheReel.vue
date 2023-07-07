@@ -8,16 +8,16 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from "vue";
+// import { ref, computed, watch } from "vue";
 
-const slideMapper = {
-  1: resolveComponent("Slide1"),
-  2: resolveComponent("Slide2"),
-};
-const route = useRoute();
-const currentSlide = computed(() => {
-  return route in slideMapper ? slideMapper[route] : slideMapper[1];
-});
+// const slideMapper = {
+//   1: resolveComponent("Slide1"),
+//   2: resolveComponent("Slide2"),
+// };
+// const route = useRoute();
+// const currentSlide = computed(() => {
+//   return route in slideMapper ? slideMapper[route] : slideMapper[1];
+// });
 // const currentSlideName = ref(
 //   route in slideMapper ? slideMapper[route] : "Slide1"
 // );

@@ -1,6 +1,6 @@
 <template>
   <Slide key="index">
-    <div class="bg-primary">Home text <NuxtLink to="/one">One</NuxtLink></div>
+    <div>Home text <NuxtLink to="/one">One</NuxtLink></div>
   </Slide>
 </template>
 

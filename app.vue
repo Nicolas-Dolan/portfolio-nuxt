@@ -2,16 +2,13 @@
   <div class="container">
     <div class="h-100">
       <div
-        class="row"
-        style="height: 80vh; margin-top: 10vh; margin-bottom: 10vh"
+        class="row align-items-center"
+        style="height: 90vh; margin-top: 5vh; margin-bottom: 5vh"
       >
-        <div class="col-sm bg-primary">
+        <div class="col-sm">
           <TheMenu />
-
-          <NuxtLink :to="prev">Prev</NuxtLink> |
-          <NuxtLink :to="next">Next</NuxtLink>
         </div>
-        <div class="col-sm-9 bg-secondary">
+        <div class="col-sm-9">
           <TheReel><NuxtPage /></TheReel>
         </div>
       </div>
@@ -19,13 +16,42 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { useNavigation } from "./hooks/navigation";
-
-const { prev, next } = useNavigation();
-</script>
-
 <style>
+#__nuxt {
+  /* opacity: 0; */
+  /* background-color: transparent; */
+  /* background-color: transparent !important; */
+}
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+body {
+  height: 100%;
+  background-image: url("./assets/images/stars.jpg");
+  background-repeat: repeat;
+  animation: animatedBackground 120s linear infinite;
+}
+
+@media only screen and (max-width: 414px) {
+  html {
+    animation: animatedBackground 300s linear infinite;
+  }
+}
+
+body {
+  font-family: "Forum", cursive;
+  color: white;
+}
+
 /* .slide-left-enter-active,
 .slide-left-leave-active, */
 /* .slide-right-enter-active,

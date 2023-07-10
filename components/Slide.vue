@@ -1,10 +1,11 @@
 <template>
   <div
-    class="row overflow-auto faded"
+    class="row overflow-auto faded align-items-center"
     style="height: 80vh"
     @scroll="handleSlideScroll"
     ref="slide"
   >
+    <div style="height: 5vh"></div>
     <slot></slot>
     <div style="height: 5vh"></div>
   </div>
@@ -123,6 +124,9 @@ onUnmounted(() => {
 .faded {
   --mask: linear-gradient(
       to bottom,
+      rgba(0, 0, 0, 0) 0,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 10%,
       rgba(0, 0, 0, 1) 0,
       rgba(0, 0, 0, 1) 90%,
       rgba(0, 0, 0, 0) 100%,

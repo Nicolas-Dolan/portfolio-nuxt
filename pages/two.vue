@@ -1,6 +1,6 @@
 <template>
   <Slide key="two">
-    <div class="col bg-info">
+    <div class="col">
       <NuxtLink to="/">Home</NuxtLink><NuxtLink to="/one">One</NuxtLink>
     </div>
   </Slide>

@@ -1,10 +1,10 @@
 <template>
   <Slide key="index">
-    <h1 className="text-center">Full-Stack Web Developer</h1>
-    <NuxtLink to="/one">
-      <h2 className="text-center text-white text-decoration-none">Scroll</h2>
+    <h1 class="text-center">Full-Stack Web Developer</h1>
+    <NuxtLink :to="next">
+      <h2 class="text-center text-white">Scroll</h2>
       <img
-        className="scrollArrow mx-auto d-block"
+        class="scrollArrow mx-auto d-block"
         alt="down arrow"
         src="../assets/images/down-arrow.png"
       />

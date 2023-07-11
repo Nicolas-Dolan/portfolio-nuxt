@@ -1,5 +1,5 @@
 <template>
-  <Slide key="one">
+  <Slide key="experience">
     <div class="col-sm">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

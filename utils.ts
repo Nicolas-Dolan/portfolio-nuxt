@@ -1,4 +1,11 @@
-export const routeOrder = ["/", "/one", "/two"];
+export const routeOrder = [
+  "/",
+  "/about",
+  "/skills",
+  "/projects",
+  "/experience",
+  "/contact",
+];
 
 export const getSlideDirection = (to, from) => {
   if (routeOrder.includes(to.path) && routeOrder.includes(from.path)) {

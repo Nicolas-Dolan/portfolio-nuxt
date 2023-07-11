@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Nicolas Dolan: Portfolio</h1>
+    <h2>Nicolas Dolan: Portfolio</h2>
 
     <NuxtLink :to="prev">Prev</NuxtLink> |
     <NuxtLink :to="next">Next</NuxtLink>

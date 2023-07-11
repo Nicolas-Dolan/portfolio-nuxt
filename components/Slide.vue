@@ -1,6 +1,6 @@
 <template>
   <div
-    class="row overflow-auto faded align-items-center"
+    class="row overflow-auto faded align-items-center justify-content-md-center"
     style="height: 80vh"
     @scroll="handleSlideScroll"
     ref="slide"

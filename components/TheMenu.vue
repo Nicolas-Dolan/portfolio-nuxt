@@ -5,7 +5,7 @@
         Nicolas Dolan: Portfolio
       </h2></NuxtLink
     >
-    <nav class="d-flex justify-content-center mb-2">
+    <nav class="d-flex justify-content-center flex-wrap mb-2">
       <template v-for="(item, index) in routeMenuConfig" :key="index">
         <div v-if="!item" class="mx-1">|</div>
         <NuxtLink v-else :to="item.route"
@@ -15,7 +15,7 @@
         ></template
       >
     </nav>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center d-md-flex d-none">
       <NuxtLink :to="prev"
         ><img
           class="arrow"

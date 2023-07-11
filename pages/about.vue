@@ -1,53 +1,30 @@
 <template>
   <Slide key="about">
     <div class="col-sm-8">
+      <h2>About</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I am an enthusiastic and dedicated research software engineer who
+        transitioned into full-stack development following a successful career
+        as a medical writer and editor.
       </p>
+
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Throughout my career, I have brought a deep passion for science and
+        technology to all of the work I do. In my engineering role at Imperial
+        College London, I work closely with research scientists to develop
+        cutting-edge, open-source applications used in public health research.
       </p>
+
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I work well on my own initiative and as part of a team, and have
+        experience managing multiple ongoing projects while working both
+        in-house and for clients. Additionally, I can leverage excellent
+        problem-solving and attention-to-detail skills developed while writing
+        and analysing complicated scientific texts in my previous roles.
       </p>
     </div>
-    <div class="col-sm align-self-start">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
+    <div class="col-sm-4 d-flex justify-content-center">
+      <img class="profile" src="../assets/images/profile.jpg" />
     </div>
   </Slide>
 </template>
@@ -57,3 +34,12 @@ import { pageMeta } from "../utils";
 
 definePageMeta(pageMeta as any);
 </script>
+
+<style>
+.profile {
+  max-width: 170px;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+</style>

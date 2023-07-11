@@ -1,14 +1,14 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="h-100">
       <div
-        class="row align-items-center"
+        class="row align-items-center justify-content-md-center"
         style="height: 90vh; margin-top: 5vh; margin-bottom: 5vh"
       >
-        <div class="col-sm">
+        <div class="col-md-3">
           <TheMenu />
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
           <TheReel><NuxtPage /></TheReel>
         </div>
       </div>

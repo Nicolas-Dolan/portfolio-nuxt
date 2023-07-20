@@ -12,11 +12,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, watch } from "vue";
 import { useNavigation } from "../hooks/navigation";
 
 const { prev, next } = useNavigation();
 const router = useRouter();
+const route = useRoute();
 
 const slide = ref(null);
 const isReady = ref(false);
@@ -27,6 +28,24 @@ const finishedBackwardScroll = ref(true);
 const reachedTop = ref(true);
 const reachedBottom = ref(false);
 const scrollDirection = ref("");
+
+function resetState() {
+  slide.value.scrollTop = 0;
+  isReady.value = false;
+  isScrollable.value = false;
+  finishedForwardScroll.value = false;
+  finishedBackwardScroll.value = true;
+  reachedTop.value = true;
+  reachedBottom.value = false;
+  scrollDirection.value = "backward";
+  setTimeout(() => {
+    isReady.value = true;
+    const { clientHeight, scrollHeight } = slide.value;
+    isScrollable.value = scrollHeight > clientHeight;
+  }, 500);
+}
+
+watch(() => route.path, resetState);
 
 function handleWindowScroll(e) {
   if (isReady.value) {
@@ -73,7 +92,7 @@ function handleWindowScroll(e) {
 function handleSlideScroll({
   target: { scrollTop, clientHeight, scrollHeight },
 }) {
-  if (scrollTop + clientHeight >= scrollHeight) {
+  if (scrollTop + clientHeight >= scrollHeight - 1) {
     reachedBottom.value = true;
     finishedForwardScroll.value = false;
     setTimeout(() => {

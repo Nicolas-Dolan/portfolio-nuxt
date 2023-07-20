@@ -302,4 +302,51 @@ body {
   -webkit-animation-name: zoomOutPlus;
   animation-name: zoomOutPlus;
 }
+
+///////////////
+
+.fade-enter-active {
+  animation: fadeIn 0.4s;
+}
+.fade-leave-active {
+  animation: fadeOut 0.4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 100;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}
+
+.blur-enter-active,
+.blur-leave-active {
+  transition: all 0.4s;
+}
+.blur-enter-from,
+.blur-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
 </style>

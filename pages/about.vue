@@ -24,7 +24,7 @@
       </p>
     </div>
     <div class="col-sm-4 d-flex justify-content-center">
-      <img class="profile" src="../assets/images/profile.jpg" />
+      <img class="profile" src="../assets/images/profile.jpg" alt="profile" />
     </div>
   </Slide>
 </template>

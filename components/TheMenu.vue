@@ -55,7 +55,7 @@ const routeMenuConfig = computed(() => {
     const configItem = {
       route,
       routeName,
-      isActive: route === routes.path,
+      isActive: routes.path.includes(route),
     };
     config.push(configItem);
     if (index !== array.length - 1) {

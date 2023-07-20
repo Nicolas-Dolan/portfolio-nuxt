@@ -5,9 +5,15 @@ import { routeOrder } from "../utils";
 export function useNavigation() {
   const route = useRoute();
 
-  const currentRouteIndex = computed(() =>
-    routeOrder.includes(route.path) ? routeOrder.indexOf(route.path) : 0
-  );
+  const currentRouteIndex = computed(() => {
+    for (let index = 1; index < routeOrder.length; index++) {
+      const element = routeOrder[index];
+      if (route.path.includes(element)) {
+        return index;
+      }
+    }
+    return 0;
+  });
   const lastIndex = routeOrder.length - 1;
 
   const prev = computed(() =>

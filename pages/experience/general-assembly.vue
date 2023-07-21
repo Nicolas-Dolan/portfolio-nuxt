@@ -11,5 +11,23 @@
       covered Python with Django and best practices such as test-driven
       development and the Agile workflow.
     </p>
+    <p>
+      Click below to see some of the applications I created during the course:
+    </p>
+    <div>
+      <NuxtLink to="/projects/ga1-goblin-gold" class="text-white"
+        >Goblin Gold</NuxtLink
+      >
+      |
+      <NuxtLink to="/projects/ga2-geography-genius" class="text-white"
+        >Geography Genius</NuxtLink
+      >
+      |
+      <NuxtLink to="/projects/ga3-beehive" class="text-white">Beehive</NuxtLink>
+      |
+      <NuxtLink to="/projects/ga4-pokemon-unlimited" class="text-white"
+        >Pokémon Unlimited</NuxtLink
+      >
+    </div>
   </div>
 </template>

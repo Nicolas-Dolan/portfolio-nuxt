@@ -17,9 +17,14 @@
       an Agile manner and I regularly give and receive code reviews.
     </p>
     <p>Click below to see some of the applications I contribute to:</p>
-    <p></p>
-    <p>Naomi</p>
-    <p></p>
-    <p>OrderlyWeb</p>
+    <div>
+      <NuxtLink to="/projects/icl-naomi" class="text-white">Naomi</NuxtLink>
+      |
+      <NuxtLink to="/projects/icl-wodin" class="text-white">Wodin</NuxtLink>
+      |
+      <NuxtLink to="/projects/icl-orderlyweb" class="text-white"
+        >OrderlyWeb</NuxtLink
+      >
+    </div>
   </div>
 </template>

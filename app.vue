@@ -94,7 +94,7 @@ body {
   transform: translate(50px, 0);
 } */
 
-//////////////////////////////////
+/* ////////////////////////////////// */
 
 @-webkit-keyframes zoomIn {
   from {
@@ -145,7 +145,7 @@ body {
   animation-name: zoomIn;
 }
 
-//////////////////////////////////
+/* ////////////////////////////////// */
 
 @-webkit-keyframes zoomInPlus {
   from {
@@ -195,7 +195,7 @@ body {
   animation-name: zoomInPlus;
 }
 
-//////////////////////////////
+/* ////////////////////////////// */
 
 @-webkit-keyframes zoomOut {
   from {
@@ -244,7 +244,7 @@ body {
   animation-name: zoomOut;
 }
 
-/////////////////////
+/* ///////////////////// */
 
 @-webkit-keyframes zoomOutPlus {
   from {
@@ -303,7 +303,7 @@ body {
   animation-name: zoomOutPlus;
 }
 
-///////////////
+/* /////////////// */
 
 .fade-enter-active {
   animation: fadeIn 0.4s;

@@ -45,6 +45,11 @@ const routes = useRoute();
 
 const experienceList = [
   {
+    name: "Redactyl",
+    iconSrc: "/assets/images/redactyl.png",
+    route: "redactyl",
+  },
+  {
     name: "Imperial College London",
     iconSrc: "/assets/images/icl.png",
     route: "imperial-college-london",

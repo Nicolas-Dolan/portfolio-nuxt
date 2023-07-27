@@ -3,15 +3,15 @@
     <div class="col-sm-8">
       <h2>About</h2>
       <p>
-        I am an enthusiastic and dedicated research software engineer who
-        transitioned into full-stack development following a successful career
-        as a medical writer and editor.
+        I am an enthusiastic and dedicated software engineer who transitioned
+        into full-stack development in 2019 following a successful career as a
+        medical writer and editor.
       </p>
 
       <p>
         Throughout my career, I have brought a deep passion for science and
         technology to all of the work I do. In my engineering role at Imperial
-        College London, I work closely with research scientists to develop
+        College London, I worked closely with research scientists to develop
         cutting-edge, open-source applications used in public health research.
       </p>
 

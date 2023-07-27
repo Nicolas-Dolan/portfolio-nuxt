@@ -8,10 +8,10 @@
       database to store user-created Pokémon that could then be implemented into
       a grid-based game. I wanted to create something that was both fun and
       complex, testing my abilities and drawing on everything I’d learned so
-      far. I created the back-end database using a Python-based framework called
-      Django and managed it with PostgreSQL. I then installed React, a
-      JavaScript-based framework, for the front end and used Axios to make
-      database requests. 
+      far. I created the back-end database in PostgreSQL and managed it with a
+      Restful API using a Python-based framework called Django. I then installed
+      React, a JavaScript-based framework, for the front end and used Axios to
+      make database requests. 
     </p>
     <!-- <a href="http://bit.ly/pkmn-unlimited" target="_blank" rel="noopener noreferrer">See Project</a> -->
     <a

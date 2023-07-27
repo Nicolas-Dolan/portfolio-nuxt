@@ -15,9 +15,11 @@
       Developed on behalf of UNAIDS, Naomi is a web interface for a model
       estimating various HIV epidemic indicators at a regional level. The
       application is used by teams of health officials from sub-Saharan African
-      countries to inform HIV programme targets. It is comprised of an HIV model
-      wrapped by an R API, a Spring Boot/Kotlin web server, and Vue/TypeScript
-      front end.
+      countries to inform HIV programme targets.
+    </p>
+    <p>
+      It is comprised of an HIV model wrapped by an R API, a Spring Boot/Kotlin
+      web server, and Vue/TypeScript front end.
     </p>
     <p>
       <img

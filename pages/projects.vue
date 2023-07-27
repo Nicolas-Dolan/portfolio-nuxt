@@ -70,7 +70,7 @@
       <!-- </Transition>
       <Transition> -->
       <div v-if="routes.path.includes('ga')">
-        <h3>General Assembly Projects</h3>
+        <h3>Projects at General Assembly</h3>
         <h5>
           <NuxtLink
             to="/projects/ga1-goblin-gold"

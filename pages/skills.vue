@@ -5,12 +5,24 @@
       <h4>Technologies</h4>
       <div class="d-flex flex-wrap justify-content-between">
         <div class="techBundle">
+          <i class="devicon-typescript-plain skillIcon"></i>
+          <p>TypeScript</p>
+        </div>
+        <div class="techBundle">
           <i class="devicon-vuejs-plain skillIcon"></i>
           <p>Vue.js</p>
         </div>
         <div class="techBundle">
-          <i class="devicon-typescript-plain skillIcon"></i>
-          <p>TypeScript</p>
+          <i class="devicon-nuxtjs-plain skillIcon"></i>
+          <p>Nuxt.js</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-react-original skillIcon"></i>
+          <p>React</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-nextjs-original skillIcon"></i>
+          <p>Next.js</p>
         </div>
         <div class="techBundle">
           <i class="devicon-python-plain skillIcon"></i>
@@ -25,30 +37,6 @@
           <p>PostgreSQL</p>
         </div>
         <div class="techBundle">
-          <i class="devicon-react-original skillIcon"></i>
-          <p>React</p>
-        </div>
-        <div class="techBundle">
-          <i class="devicon-javascript-plain skillIcon"></i>
-          <p>JavaScript</p>
-        </div>
-        <div class="techBundle">
-          <i class="devicon-bootstrap-plain skillIcon"></i>
-          <p>Bootstrap</p>
-        </div>
-        <div class="techBundle">
-          <i class="devicon-kotlin-plain skillIcon"></i>
-          <p>Kotlin</p>
-        </div>
-        <div class="techBundle">
-          <i class="devicon-spring-plain skillIcon"></i>
-          <p>Spring Boot</p>
-        </div>
-        <div class="techBundle">
-          <i class="devicon-docker-plain skillIcon"></i>
-          <p>Docker</p>
-        </div>
-        <div class="techBundle">
           <i class="devicon-nodejs-plain skillIcon"></i>
           <p>Node.js</p>
         </div>
@@ -59,6 +47,26 @@
         <div class="techBundle">
           <i class="devicon-mongodb-plain skillIcon"></i>
           <p>MongoDB</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-bootstrap-plain skillIcon"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-docker-plain skillIcon"></i>
+          <p>Docker</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-amazonwebservices-original skillIcon"></i>
+          <p>AWS</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-jest-plain skillIcon"></i>
+          <p>Jest</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-javascript-plain skillIcon"></i>
+          <p>JavaScript</p>
         </div>
         <div class="techBundle">
           <i class="devicon-html5-plain skillIcon"></i>
@@ -77,14 +85,22 @@
           <p>GitHub</p>
         </div>
       </div>
-      <h4>Soft Skills</h4>
+      <h4>Skills & Knowledge</h4>
       <p>
-        Problem solving | Attention to detail | Team work | Test-driven
-        development | Wireframing | Initiative | Communication | Agile
-        development | Time management | Analysis
+        Data Structures & Algorithms | Design Patterns | Clean Code | SOLID
+        Principles | Object-Oriented Programming | Functional Programming |
+        Test-Driven Development | Agile Development | Continuous
+        Integration/Delivery | Web Security | UX/UI Design | Code Review |
+        Serverless Architecture | Requirements Gathering | Wireframing |
+        Documentation | Progressive Web Applications | Restful APIs
       </p>
     </div>
     <div class="col-sm align-self-start">
+      <h4>Soft Skills</h4>
+      <p>
+        Problem Solving | Attention to Detail | Team Work | Initiative |
+        Communication | Time Management | Analysis
+      </p>
       <h4>Interests</h4>
       <h5>Artificial Intelligence</h5>
       <p>

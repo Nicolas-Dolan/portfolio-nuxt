@@ -6,11 +6,11 @@
       application. It was designed to help creatives from different specialties
       connect and collaborate on projects. We all contributed to the initial
       idea and design of the website, using wireframes to visualise it. We built
-      the front end using React and Bulma and the back end with MongoDB,
-      Express, and Node.js. I was involved in all parts of the website but took
-      ownership of much of the back end and the messaging system. We used Agile
-      methodology to distribute work, holding ‘scrums’ regularly and tracking
-      our project on Trello.
+      the front end using React and Bulma and the back end with Node.js,
+      Express.js, and MongoDB. I was involved in all parts of the website but
+      took ownership of much of the back end and the messaging system. We used
+      Agile methodology to distribute work, holding ‘scrums’ regularly and
+      tracking our project on Trello.
     </p>
     <!-- <a href="http://bit.ly/beehive-app" target="_blank" rel="noopener noreferrer">See Project</a> -->
     <p></p>

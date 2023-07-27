@@ -1,0 +1,1 @@
+.faded{--mask:linear-gradient(180deg,transparent 0,transparent 0%,#000 10%,#000 0,#000 90%,transparent 100%,transparent 0) 100% 90% /100% 100% repeat-x;-webkit-mask:var(--mask);mask:var(--mask)}

@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     baseURL: "/portfolio-nuxt/",
     pageTransition: { name: "slide-left", mode: "out-in" },
     head: {
+      // meta: [
+      //   { httpEquiv: 'utf-8' },
+      // ],
       link: [
         {
           rel: "stylesheet",

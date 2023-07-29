@@ -1,0 +1,1 @@
+import"./entry.38ddcf3b.js";const c=""+globalThis.__publicAssetsURL("icons/redactyl.png"),i=""+globalThis.__publicAssetsURL("icons/icl.png"),l=""+globalThis.__publicAssetsURL("icons/ga.png");export{l as g,i,c as r};

@@ -7,7 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages --dotfiles -d dist"
+    "deploy": "nuxt generate && gh-pages --dotfiles -d dist"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

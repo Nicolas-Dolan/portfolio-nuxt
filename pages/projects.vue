@@ -8,6 +8,7 @@
         <div
           v-for="{ route, iconSrc, name, isActive } in computedProjectList"
           class="mb-2"
+          :key="name"
         >
           <NuxtLink :to="`/projects/${route}`">
             <div class="frame">
@@ -130,12 +131,11 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { pageMeta } from "../utils";
+import redactylImg from "/icons/redactyl.png";
+import iclImg from "/icons/icl.png";
+import gaImg from "/icons/ga.png";
 
 const routes = useRoute();
-
-const redactylImg = new URL("./icons/redactyl.png", import.meta.url).href;
-const iclImg = new URL("./icons/icl.png", import.meta.url).href;
-const gaImg = new URL("./icons/ga.png", import.meta.url).href;
 
 const projectList = [
   {

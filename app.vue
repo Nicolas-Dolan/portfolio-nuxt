@@ -379,7 +379,7 @@ body {
   filter: blur(1rem);
 }
 
-.v-enter-active,
+/* .v-enter-active,
 .v-leave-active {
   transition: all 0.4s;
 }
@@ -388,7 +388,7 @@ body {
 .v-leave-to {
   opacity: 0;
   filter: blur(1rem);
-}
+} */
 
 .projectImage {
   max-height: 25rem;

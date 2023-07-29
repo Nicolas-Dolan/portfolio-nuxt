@@ -40,16 +40,15 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { pageMeta } from "../utils";
+import redactylImg from "/icons/redactyl.png";
+import iclImg from "/icons/icl.png";
+import gaImg from "/icons/ga.png";
+import syneosImg from "/icons/syneos.png";
+import askImg from "/icons/ask.png";
+import lancetImg from "/icons/lancet.png";
+import kclImg from "/icons/kcl.jpeg";
 
 const routes = useRoute();
-
-const redactylImg = new URL("./icons/redactyl.png", import.meta.url).href;
-const iclImg = new URL("./icons/icl.png", import.meta.url).href;
-const gaImg = new URL("./icons/ga.png", import.meta.url).href;
-const syneosImg = new URL("./icons/syneos.png", import.meta.url).href;
-const askImg = new URL("./icons/ask.png", import.meta.url).href;
-const lancetImg = new URL("./icons/lancet.png", import.meta.url).href;
-const kclImg = new URL("./icons/kcl.jpeg", import.meta.url).href;
 
 const experienceList = [
   {

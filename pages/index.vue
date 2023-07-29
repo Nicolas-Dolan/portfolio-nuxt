@@ -1,5 +1,5 @@
 <template>
-  <Slide key="index">
+  <Slide>
     <h1 class="text-center">Full-Stack Web Developer</h1>
     <NuxtLink :to="next">
       <h2 class="text-center text-white">Scroll</h2>

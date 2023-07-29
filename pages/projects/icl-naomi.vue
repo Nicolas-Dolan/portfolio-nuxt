@@ -19,7 +19,7 @@
     </p>
     <p>
       It is comprised of an HIV model wrapped by an R API, a Spring Boot/Kotlin
-      web server, and Vue/TypeScript front end.
+      web server, and Vue.js/TypeScript front end.
     </p>
     <p>
       <img

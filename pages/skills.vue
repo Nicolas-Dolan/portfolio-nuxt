@@ -1,5 +1,5 @@
 <template>
-  <Slide key="skills">
+  <Slide>
     <h2>Skills & Interests</h2>
     <div class="col-sm">
       <h4>Technologies</h4>

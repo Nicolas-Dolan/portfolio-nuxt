@@ -1,5 +1,5 @@
 <template>
-  <Slide key="projects">
+  <Slide>
     <h2>Software Projects</h2>
     <div class="col-sm-4 d-flex justify-content-center align-self-start">
       <div
@@ -59,7 +59,7 @@
               <img
                 class="sm-arrow"
                 alt="right arrow"
-                src="../assets/images/right-arrow.png"
+                src="/assets/images/right-arrow.png"
               />
               <div><em>&nbsp;Go to Imperial experience overview</em></div>
             </div></NuxtLink
@@ -106,7 +106,7 @@
               <img
                 class="sm-arrow"
                 alt="right arrow"
-                src="../assets/images/right-arrow.png"
+                src="/assets/images/right-arrow.png"
               />
               <div>
                 <em>&nbsp;Go to General Assembly experience overview</em>
@@ -133,20 +133,24 @@ import { pageMeta } from "../utils";
 
 const routes = useRoute();
 
+const redactylImg = new URL("./icons/redactyl.png", import.meta.url).href;
+const iclImg = new URL("./icons/icl.png", import.meta.url).href;
+const gaImg = new URL("./icons/ga.png", import.meta.url).href;
+
 const projectList = [
   {
     name: "Redactyl",
-    iconSrc: "/assets/images/redactyl.png",
+    iconSrc: redactylImg,
     route: "redactyl",
   },
   {
     name: "Imperial College London",
-    iconSrc: "/assets/images/icl.png",
+    iconSrc: iclImg,
     route: "icl",
   },
   {
     name: "General Assembly",
-    iconSrc: "/assets/images/ga.png",
+    iconSrc: gaImg,
     route: "ga",
   },
 ];

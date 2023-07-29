@@ -1,5 +1,5 @@
 <template>
-  <Slide key="contact">
+  <Slide>
     <div class="col-sm-6">
       <h2>Contact</h2>
 

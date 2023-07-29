@@ -35,14 +35,16 @@
 }
 
 body {
+  background: rgb(0, 0, 0);
   height: 100%;
-  background-image: url("./assets/images/stars.jpg");
+  background-image: url("/assets/images/stars.jpg");
   background-repeat: repeat;
   animation: animatedBackground 120s linear infinite;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 414px) {
-  html {
+  body {
     animation: animatedBackground 300s linear infinite;
   }
 }
@@ -60,18 +62,45 @@ body {
 } */
 .slide-left-enter-active {
   animation: zoomIn 2s;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  /* animation-fill-mode: forwards; */
 }
 .slide-left-leave-active {
   animation: zoomInPlus 1s;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  right: 0; */
   /* animation-fill-mode: forwards; */
 }
 .slide-right-enter-active {
   animation: zoomOutPlus 1.5s;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  right: 0; */
 }
 .slide-right-leave-active {
   animation: zoomOut 1s;
-  animation-fill-mode: forwards;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  /* animation-fill-mode: forwards; */
 }
+
+/* .slide-left-enter,
+.slide-right-leave-to {
+  opacity: 0;
+}
+
+.slide-right-enter,
+.slide-left-leave-to {
+  opacity: 0;
+} */
 
 /* .slide-left-enter-from {
   opacity: 0;

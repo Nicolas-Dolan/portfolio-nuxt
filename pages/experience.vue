@@ -1,5 +1,5 @@
 <template>
-  <Slide key="experience">
+  <Slide>
     <h2>Experience & Education</h2>
     <div class="col-sm-4 d-flex justify-content-center align-self-start">
       <div
@@ -43,40 +43,48 @@ import { pageMeta } from "../utils";
 
 const routes = useRoute();
 
+const redactylImg = new URL("./icons/redactyl.png", import.meta.url).href;
+const iclImg = new URL("./icons/icl.png", import.meta.url).href;
+const gaImg = new URL("./icons/ga.png", import.meta.url).href;
+const syneosImg = new URL("./icons/syneos.png", import.meta.url).href;
+const askImg = new URL("./icons/ask.png", import.meta.url).href;
+const lancetImg = new URL("./icons/lancet.png", import.meta.url).href;
+const kclImg = new URL("./icons/kcl.jpeg", import.meta.url).href;
+
 const experienceList = [
   {
     name: "Redactyl",
-    iconSrc: "/assets/images/redactyl.png",
+    iconSrc: redactylImg,
     route: "redactyl",
   },
   {
     name: "Imperial College London",
-    iconSrc: "/assets/images/icl.png",
+    iconSrc: iclImg,
     route: "imperial-college-london",
   },
   {
     name: "General Assembly",
-    iconSrc: "/assets/images/ga.png",
+    iconSrc: gaImg,
     route: "general-assembly",
   },
   {
     name: "Syneos Health",
-    iconSrc: "/assets/images/syneos.png",
+    iconSrc: syneosImg,
     route: "syneos-health",
   },
   {
     name: "AS&K",
-    iconSrc: "/assets/images/ask.png",
+    iconSrc: askImg,
     route: "ask",
   },
   {
     name: "The Lancet",
-    iconSrc: "/assets/images/lancet.png",
+    iconSrc: lancetImg,
     route: "the-lancet",
   },
   {
     name: "King's College London",
-    iconSrc: "/assets/images/kcl.jpeg",
+    iconSrc: kclImg,
     route: "kings-college-london",
   },
 ];

@@ -18,7 +18,7 @@
       and organise and distribute everything with a user-friendly front end.
     </p>
     <p>
-      It consists of a Spring Boot/Kotlin web server and Vue/TypeScript front
+      It consists of a Spring Boot/Kotlin web server and Vue.js/TypeScript front
       end, and interacts with an R package called Orderly.
     </p>
     <p>

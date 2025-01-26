@@ -3,7 +3,7 @@
     <h3>Redactyl</h3>
     <h4>
       <a
-        href="https://mailchi.mp/f0909f3c6673/redactyl-preview"
+        href="https://redactyl.app"
         target="_blank"
         rel="noopener noreferrer"
         class="text-white"
@@ -13,7 +13,7 @@
             alt="right arrow"
             src="/assets/images/right-arrow.png"
           />
-          <div><em>&nbsp;See Redactyl Preview Page</em></div>
+          <div><em>&nbsp;Go to Redactyl</em></div>
         </div></a
       >
     </h4>
@@ -26,8 +26,8 @@
       (Windows, Mac, iOS, Android) as an app and can be used offline.
     </p>
     <p>
-      <strong>Technologies: </strong>Nuxt/Vue, TypeScript, Progressive Web
-      Application (PWA), Django, Python, PostgreSQL, Bootstrap
+      <strong>Technologies: </strong>Nuxt/Vue.js, TypeScript, Progressive Web
+      Application (PWA), Django, Python, PostgreSQL, Bootstrap, AWS
     </p>
     <p>
       <img

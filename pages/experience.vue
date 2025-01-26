@@ -40,21 +40,21 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { pageMeta } from "../utils";
-import redactylImg from "/icons/redactyl.png";
 import iclImg from "/icons/icl.png";
 import gaImg from "/icons/ga.png";
 import syneosImg from "/icons/syneos.png";
 import askImg from "/icons/ask.png";
 import lancetImg from "/icons/lancet.png";
 import kclImg from "/icons/kcl.jpeg";
+import ssImg from "/icons/smartsurvey.svg";
 
 const routes = useRoute();
 
 const experienceList = [
   {
-    name: "Redactyl",
-    iconSrc: redactylImg,
-    route: "redactyl",
+    name: "Smart Survey",
+    iconSrc: ssImg,
+    route: "smartsurvey",
   },
   {
     name: "Imperial College London",

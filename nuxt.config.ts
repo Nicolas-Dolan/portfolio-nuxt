@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    baseURL: "/portfolio-nuxt/",
+    // baseURL: "/portfolio-nuxt/",
     pageTransition: { name: "slide-left", mode: "out-in" },
     head: {
       // meta: [
@@ -136,7 +136,7 @@ export default defineNuxtConfig({
 
         {
           rel: "stylesheet",
-          href: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css",
+          href: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css",
         },
       ],
     },

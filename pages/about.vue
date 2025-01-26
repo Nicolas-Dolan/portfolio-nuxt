@@ -3,24 +3,33 @@
     <div class="col-sm-8">
       <h2>About</h2>
       <p>
-        I am an enthusiastic and dedicated software engineer who transitioned
-        into full-stack development in 2019 following a successful career as a
-        medical writer and editor.
+        As a full-stack developer, I would describe myself as a front-end Vue
+        specialist and back-end generalist.
       </p>
 
       <p>
-        Throughout my career, I have brought a deep passion for science and
-        technology to all of the work I do. In my engineering role at Imperial
-        College London, I worked closely with research scientists to develop
-        cutting-edge, open-source applications used in public health research.
+        I have deep knowledge of front-end development with 5 years of
+        experience building stylish, optimised, and secure front ends that are
+        easy to maintain and accessible. I am an expert in Vue.js and its
+        ecosystem, but I am also confident with React.
       </p>
 
       <p>
-        I work well on my own initiative and as part of a team, and have
-        experience managing multiple ongoing projects while working both
-        in-house and for clients. Additionally, I can leverage excellent
-        problem-solving and attention-to-detail skills developed while writing
-        and analysing complicated scientific texts in my previous roles.
+        My back-end experience is broad and flexible. Most recently, I have been
+        using C#/.NET at SmartSurvey. Outside of work, I mostly use
+        Python/Django to build out the back end of my personal projects. I have
+        also used Node.js/Express.js and Kotlin/Spring Boot in the back end when
+        working at Imperial College London. Although not a specialist in these
+        technologies, I have developed a solid understanding of back-end
+        concepts such as OOP and system design to the extent that I can quickly
+        adapt to any back-end technology and make meaningful contributions.
+      </p>
+      <p>
+        I have genuine passion for software engineering. I continually seek to
+        improve my knowledge of web development and aim to throughly
+        understanding the codebase that I am working on. I am an engaged and
+        thoughtful employee who aims to make a lasting, positive impacts on both
+        the code I work on and the organisation’s processes and ethos.
       </p>
     </div>
     <div class="col-sm-4 d-flex justify-content-center">

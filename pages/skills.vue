@@ -21,7 +21,7 @@
           <p>React</p>
         </div>
         <div class="techBundle">
-          <i class="devicon-nextjs-original skillIcon"></i>
+          <i class="devicon-nextjs-plain skillIcon"></i>
           <p>Next.js</p>
         </div>
         <div class="techBundle">
@@ -57,12 +57,24 @@
           <p>Docker</p>
         </div>
         <div class="techBundle">
-          <i class="devicon-amazonwebservices-original skillIcon"></i>
+          <i class="devicon-amazonwebservices-plain-wordmark skillIcon"></i>
           <p>AWS</p>
         </div>
         <div class="techBundle">
           <i class="devicon-jest-plain skillIcon"></i>
           <p>Jest</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-vitest-plain skillIcon"></i>
+          <p>Vitest</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-cypressio-plain skillIcon"></i>
+          <p>Cypress</p>
+        </div>
+        <div class="techBundle">
+          <i class="devicon-playwright-plain skillIcon"></i>
+          <p>Playwright</p>
         </div>
         <div class="techBundle">
           <i class="devicon-javascript-plain skillIcon"></i>
@@ -87,12 +99,11 @@
       </div>
       <h4>Skills & Knowledge</h4>
       <p>
-        Data Structures & Algorithms | Design Patterns | Clean Code | SOLID
-        Principles | Object-Oriented Programming | Functional Programming |
-        Test-Driven Development | Agile Development | Continuous
-        Integration/Delivery | Web Security | UX/UI Design | Code Review |
-        Serverless Architecture | Requirements Gathering | Wireframing |
-        Documentation | Progressive Web Applications | Restful APIs
+        Web Security | UX/UI Design | Code Review | Accessibility | Design
+        Patterns | Clean Code | Test-Driven Development | Agile Development |
+        Continuous Integration/Delivery | Documentation | Data Structures &
+        Algorithms | SOLID Principles | Object-Oriented Programming | Functional
+        Programming | Serverless Architecture | Requirements Gathering
       </p>
     </div>
     <div class="col-sm align-self-start">

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a as s}from"./entry.eb448fcf.js";const c={},n={style:{"min-height":"400px"}},_=s("p",null,"Click an icon to see details",-1),a=[_];function i(r,d){return o(),t("div",n,a)}const f=e(c,[["render",i]]);export{f as default};

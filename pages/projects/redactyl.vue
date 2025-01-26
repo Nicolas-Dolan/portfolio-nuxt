@@ -1,23 +1,5 @@
 <template>
   <div>
-    <h3>Redactyl</h3>
-    <h4>
-      <a
-        href="https://redactyl.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="text-white"
-        ><div class="d-flex align-items-center">
-          <img
-            class="sm-arrow"
-            alt="right arrow"
-            src="/assets/images/right-arrow.png"
-          />
-          <div><em>&nbsp;Go to Redactyl</em></div>
-        </div></a
-      >
-    </h4>
-    <hr />
     <p>
       Redactyl is a study management tool that aims to make learning a more
       efficient and effective process. It does this by leveraging automation,

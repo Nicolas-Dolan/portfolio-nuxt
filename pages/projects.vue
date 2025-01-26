@@ -1,13 +1,15 @@
 <template>
   <Slide>
     <h2>Software Projects</h2>
-    <div class="col-sm-4 d-flex justify-content-center align-self-start">
+    <div
+      class="col-sm-4 d-flex justify-content-center align-self-start projects"
+    >
       <div
         class="d-flex flex-sm-column flex-wrap flex-sm-nowrap justify-content-sm-center h-100"
       >
         <div
           v-for="{ route, iconSrc, name, isActive } in computedProjectList"
-          class="mb-2"
+          class="mb-4"
           :key="name"
         >
           <NuxtLink :to="`/projects/${route}`">
@@ -28,6 +30,26 @@
       </div>
     </div>
     <div class="col-sm-8 align-self-start">
+      <div v-if="routes.path.includes('redactyl')">
+        <h3>Redactyl</h3>
+        <h4>
+          <a
+            href="https://redactyl.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+            ><div class="d-flex align-items-center">
+              <img
+                class="sm-arrow"
+                alt="right arrow"
+                src="/assets/images/right-arrow.png"
+              />
+              <div><em>&nbsp;Go to Redactyl</em></div>
+            </div></a
+          >
+        </h4>
+        <hr />
+      </div>
       <!-- <Transition> -->
       <div v-if="routes.path.includes('icl')">
         <h3>Projects at Imperial College London</h3>
@@ -83,7 +105,9 @@
           <NuxtLink
             to="/projects/ga2-geography-genius"
             class="text-white"
-            :class="{ isActiveLink: routes.path.includes('geography-genius') }"
+            :class="{
+              isActiveLink: routes.path.includes('geography-genius'),
+            }"
             >Geography Genius</NuxtLink
           >
           |
@@ -97,7 +121,9 @@
           <NuxtLink
             to="/projects/ga4-pokemon-unlimited"
             class="text-white"
-            :class="{ isActiveLink: routes.path.includes('pokemon-unlimited') }"
+            :class="{
+              isActiveLink: routes.path.includes('pokemon-unlimited'),
+            }"
             >Pokémon Unlimited</NuxtLink
           >
         </h5>
@@ -164,6 +190,11 @@ definePageMeta(pageMeta as any);
 </script>
 
 <style scoped>
+@media only screen and (min-width: 576px) {
+  .projects {
+    min-height: 680px;
+  }
+}
 a {
   text-decoration: none;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid container-xxl">
     <div class="h-100">
       <div
         class="row align-items-center justify-content-md-center"
@@ -46,6 +46,12 @@ body {
 @media only screen and (max-width: 414px) {
   body {
     animation: animatedBackground 300s linear infinite;
+  }
+}
+
+@media only screen and (min-width: 1558px) {
+  body {
+    background-size: 120%;
   }
 }
 

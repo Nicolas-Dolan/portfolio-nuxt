@@ -1,7 +1,7 @@
 <template>
   <Slide>
     <h2>Experience & Education</h2>
-    <div class="col-sm-4 d-flex justify-content-center align-self-start">
+    <div class="col-sm-4 d-flex justify-content-center align-self-start mb-2">
       <div
         class="d-flex flex-sm-column flex-wrap flex-sm-nowrap justify-content-sm-center h-100"
       >

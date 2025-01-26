@@ -1,14 +1,16 @@
 <template>
   <Slide>
-    <h1 class="text-center">Full-Stack Web Developer</h1>
-    <NuxtLink :to="next">
-      <h2 class="text-center text-white">Scroll</h2>
-      <img
-        class="scrollArrow mx-auto d-block"
-        alt="down arrow"
-        src="../assets/images/down-arrow.png"
-      />
-    </NuxtLink>
+    <div class="d-flex justify-content-between flex-column start">
+      <h1 class="text-center">Full-Stack Web Developer</h1>
+      <NuxtLink :to="next">
+        <h2 class="text-center text-white">Scroll</h2>
+        <img
+          class="scrollArrow mx-auto d-block"
+          alt="down arrow"
+          src="../assets/images/down-arrow.png"
+        />
+      </NuxtLink>
+    </div>
   </Slide>
 </template>
 
@@ -22,6 +24,9 @@ definePageMeta(pageMeta as any);
 </script>
 
 <style scoped>
+.start {
+  height: 200px;
+}
 a {
   text-decoration: none;
 }

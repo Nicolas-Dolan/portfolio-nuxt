@@ -55,7 +55,7 @@
         >
       </p>
     </div>
-    <div class="col-sm-6 align-self-start d-flex justify-content-center">
+    <div class="col-sm-6 d-flex justify-content-center">
       <p class="d-sm-block d-none">Location:</p>
       <img class="earth" alt="earth" src="../assets/images/earth.png" />
     </div>

@@ -8,7 +8,13 @@
         class="d-flex flex-sm-column flex-wrap flex-sm-nowrap justify-content-sm-center h-100"
       >
         <div
-          v-for="{ route, iconSrc, name, isActive } in computedProjectList"
+          v-for="{
+            route,
+            iconSrc,
+            name,
+            isActive,
+            labelFontSize,
+          } in computedProjectList"
           class="mb-4"
           :key="name"
         >
@@ -22,7 +28,9 @@
               />
 
               <div class="overlay">
-                <div class="text">{{ name }}</div>
+                <div class="text" :style="{ fontSize: labelFontSize }">
+                  {{ name }}
+                </div>
               </div>
             </div></NuxtLink
           >
@@ -184,11 +192,20 @@ import gaImg from "/icons/ga.png";
 
 const routes = useRoute();
 
-const projectList = [
+interface Project {
+  name: string;
+  iconSrc: string;
+  route: string;
+  labelFontSize?: string;
+}
+
+const projectList: Project[] = [
   {
     name: "Comprehensible World",
     iconSrc: cwImg,
     route: "comprehensible-world",
+    // "Comprehensible" is too wide for the icon at the default 20px
+    labelFontSize: "12px",
   },
   {
     name: "Redactyl",

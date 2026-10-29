@@ -7,7 +7,7 @@
       </p>
 
       <p>
-        Most recently, at InfoTrack, I led the rebuild of AP1, a form that about 45% of UK property transactions go through. I redesigned its user flow with the CEO to take an AI-native approach.
+        Most recently, at InfoTrack, I led the rebuild of AP1, the most used form of its kind in UK property transactions. I redesigned its user flow with the CEO to take an AI-native approach.
         Solicitors now start the form by uploading their documents; AI then extracts the relevant data and populates the form automatically.
       </p>
 

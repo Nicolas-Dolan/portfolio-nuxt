@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as s,a as t}from"./entry.eb448fcf.js";const n={},c={style:{"min-height":"400px"}},l=t("h3",null,"Medical Writer",-1),_=t("h4",null,"AS&K, London (April 2018 – July 2019)",-1),a=t("hr",null,null,-1),r=t("p",null,"Similar role to that at Syneos Health.",-1),i=[l,_,a,r];function h(d,u){return s(),o("div",c,i)}const f=e(n,[["render",h]]);export{f as default};

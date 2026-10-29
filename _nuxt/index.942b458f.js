@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a as c}from"./entry.969638ee.js";const n={},s={style:{"min-height":"400px"}},_=c("p",null,"Click an icon to view the project",-1),a=[_];function i(r,d){return o(),t("div",s,a)}const h=e(n,[["render",i]]);export{h as default};

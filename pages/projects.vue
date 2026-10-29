@@ -30,6 +30,26 @@
       </div>
     </div>
     <div class="col-sm-8 align-self-start">
+      <div v-if="routes.path.includes('comprehensible-world')">
+        <h3>Comprehensible World</h3>
+        <h4>
+          <a
+            href="https://comprehensible.world"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+            ><div class="d-flex align-items-center">
+              <img
+                class="sm-arrow"
+                alt="right arrow"
+                src="/assets/images/right-arrow.png"
+              />
+              <div><em>&nbsp;Go to Comprehensible World</em></div>
+            </div></a
+          >
+        </h4>
+        <hr />
+      </div>
       <div v-if="routes.path.includes('redactyl')">
         <h3>Redactyl</h3>
         <h4>
@@ -65,7 +85,7 @@
             to="/projects/icl-wodin"
             class="text-white"
             :class="{ isActiveLink: routes.path.includes('wodin') }"
-            >Wodin</NuxtLink
+            >WODIN</NuxtLink
           >
           |
           <NuxtLink
@@ -157,6 +177,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { pageMeta } from "../utils";
+import cwImg from "/icons/comprehensible-world.png";
 import redactylImg from "/icons/redactyl.png";
 import iclImg from "/icons/icl.png";
 import gaImg from "/icons/ga.png";
@@ -164,6 +185,11 @@ import gaImg from "/icons/ga.png";
 const routes = useRoute();
 
 const projectList = [
+  {
+    name: "Comprehensible World",
+    iconSrc: cwImg,
+    route: "comprehensible-world",
+  },
   {
     name: "Redactyl",
     iconSrc: redactylImg,

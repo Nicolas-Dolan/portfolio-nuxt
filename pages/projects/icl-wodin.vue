@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Wodin</h2>
+    <h2>WODIN</h2>
     <h4>
       <a
         href="https://github.com/mrc-ide/wodin"
@@ -12,13 +12,14 @@
     </h4>
     <hr />
     <p>
-      A web application that can be deployed with custom configuration to create
-      teaching courses that allow students to author and run model code using
-      odin (a system for describing and implementing ordinary differential
+      An open-source web application for building and running epidemiological
+      models in the browser. It can be deployed with custom configuration to
+      create teaching courses where students write and run model code using odin
+      (a system for describing and implementing ordinary differential
       equations).
     </p>
     <p>
-      Wodin has a Node.js back end using Express.js, and a Vue.js front end.
+      WODIN has a Node.js back end using Express.js, and a Vue.js front end.
       Both parts are written in TypeScript.
     </p>
     <!-- <p>

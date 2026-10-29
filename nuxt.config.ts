@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     // baseURL: "/portfolio-nuxt/",
     pageTransition: { name: "slide-left", mode: "out-in" },
     head: {
+      title: "Nicolas Dolan – Full-Stack Product Engineer",
       // meta: [
       //   { httpEquiv: 'utf-8' },
       // ],

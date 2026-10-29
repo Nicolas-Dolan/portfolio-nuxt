@@ -47,12 +47,18 @@ import askImg from "/icons/ask.png";
 import lancetImg from "/icons/lancet.png";
 import kclImg from "/icons/kcl.jpeg";
 import ssImg from "/icons/smartsurvey.svg";
+import infotrackImg from "/icons/infotrack.png";
 
 const routes = useRoute();
 
 const experienceList = [
   {
-    name: "Smart Survey",
+    name: "InfoTrack",
+    iconSrc: infotrackImg,
+    route: "infotrack",
+  },
+  {
+    name: "SmartSurvey",
     iconSrc: ssImg,
     route: "smartsurvey",
   },

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>Front-end Developer</h3>
-    <h4>SmartSurvey (Aug 2023 – Present)</h4>
+    <h4>SmartSurvey, remote (Aug 2023 – June 2025)</h4>
     <hr />
     <p>
       At
@@ -11,23 +11,26 @@
         rel="noopener noreferrer"
         class="text-white"
         >SmartSurvey</a
-      >, I develop the section of the website concerned with analysing and
-      graphically displaying survey results. I work in an Agile,
-      cross-functional team, using the Scrum methodology.
+      >, a survey and feedback SaaS, I built front ends for two new products:
+      survey results dashboards and AI open-text analysis (topic categorisation
+      and sentiment).
     </p>
     <p>
-      In addition to rolling out many new features, I have made an outsized
-      impact on the quality of the code base—identifying and providing solutions
-      to technical debt that have made subsequent development in those areas
-      much faster and less error prone. I have also refactored a lot of legacy
-      code, converting Vue 2 to Vue 3 and adding full TypeScript support.
-      Finally, I have provided mentorship to other developers and championed
-      best practices via pair coding, code reviews, and presentations.
+      Replaced a 3,000-line mixin behind the report-builder controls with a
+      type-safe config, which I prototyped and pitched and the team adopted. It
+      became the single source of truth, replacing the product team’s
+      spreadsheet of rules, and new features in the area stopped causing
+      regressions.
     </p>
+    <p>Migrated legacy Vue 2 code to Vue 3 with full TypeScript support.</p>
     <p>
-      The main technologies used in the front end are Vue.js, TypeScript,
-      Bootstrap, SCSS, Jest, and Vue Test Utils. I also contribute to the back
-      end with C#, .NET, and PostgresSQL. We use a custom CMS and Azure DevOps.
+      In a team with no tech lead, introduced technical design calls before each
+      piece of work, which cut duplicated effort.
+    </p>
+    <p>Mentored junior developers through pairing, code review and talks.</p>
+    <p>
+      <strong>Technologies: </strong>Vue, TypeScript, Bootstrap/SCSS, Jest, Vue
+      Test Utils, C#/.NET, PostgreSQL, Azure DevOps
     </p>
   </div>
 </template>

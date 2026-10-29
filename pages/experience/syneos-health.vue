@@ -12,9 +12,7 @@
       Interpreted scientific data from a variety of sources and adapted this
       information according to the audience and client brief.
     </p>
-    <p>
-      Cross checked, reviewed, and quality checked the work of other employees.
-    </p>
+    <p>Checked and reviewed colleagues’ work for accuracy and quality.</p>
     <p>
       Maintained an in-depth understanding of several therapeutic areas, and
       actively applied knowledge of the client’s products (pharmaceutical drugs

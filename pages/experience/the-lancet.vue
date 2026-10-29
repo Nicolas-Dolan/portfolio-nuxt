@@ -10,10 +10,9 @@
     </p>
     <p>Managed multiple ongoing projects and met tight deadlines.</p>
     <p>
-      Created Excel spreadsheets, which automated time-consuming routine copy
-      editing tasks such as reformatting data tables. I then shared these
-      spreadsheets with my colleagues, saving the company hundreds of hours in
-      labour time.
+      Built Excel spreadsheets that automated time-consuming copy-editing tasks
+      such as reformatting data tables, and shared them with colleagues, saving
+      the company hundreds of hours of work.
     </p>
   </div>
 </template>

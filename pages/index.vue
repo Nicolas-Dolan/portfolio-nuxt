@@ -1,7 +1,7 @@
 <template>
   <Slide>
     <div class="d-flex justify-content-between flex-column start">
-      <h1 class="text-center">Full-Stack Web Developer</h1>
+      <h1 class="text-center">Full-Stack Product Engineer</h1>
       <NuxtLink :to="next">
         <h2 class="text-center text-white">Scroll</h2>
         <img

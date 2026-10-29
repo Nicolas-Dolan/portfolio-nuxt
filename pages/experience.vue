@@ -6,7 +6,13 @@
         class="d-flex flex-sm-column flex-wrap flex-sm-nowrap justify-content-sm-center h-100"
       >
         <div
-          v-for="{ route, iconSrc, name, isActive } in computedExpList"
+          v-for="{
+            route,
+            iconSrc,
+            name,
+            isActive,
+            labelFontSize,
+          } in computedExpList"
           class="mb-2"
         >
           <NuxtLink :to="`/experience/${route}`">
@@ -19,7 +25,9 @@
               />
 
               <div class="overlay">
-                <div class="text">{{ name }}</div>
+                <div class="text" :style="{ fontSize: labelFontSize }">
+                  {{ name }}
+                </div>
               </div>
             </div></NuxtLink
           >
@@ -51,7 +59,14 @@ import infotrackImg from "/icons/infotrack.png";
 
 const routes = useRoute();
 
-const experienceList = [
+interface Experience {
+  name: string;
+  iconSrc: string;
+  route: string;
+  labelFontSize?: string;
+}
+
+const experienceList: Experience[] = [
   {
     name: "InfoTrack",
     iconSrc: infotrackImg,
@@ -61,6 +76,8 @@ const experienceList = [
     name: "SmartSurvey",
     iconSrc: ssImg,
     route: "smartsurvey",
+    // "SmartSurvey" is too wide for the icon at the default 20px
+    labelFontSize: "16px",
   },
   {
     name: "Imperial College London",

@@ -12,8 +12,8 @@
         class="text-white"
         >InfoTrack</a
       >, a legal-tech platform for conveyancing, I led the Vue 2 → 3 rebuild and
-      redesign of AP1, the HM Land Registry application form used for about 45%
-      of UK property transactions. I planned the work, wrote most of the code,
+      redesign of AP1, HM Land Registry’s application form and the most used
+      form of its kind in UK property transactions. I planned the work, wrote most of the code,
       and coordinated a junior developer, a back-end developer, QA and a product
       manager.
     </p>
